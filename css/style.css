@@ -1,0 +1,265 @@
+body{
+    margin-top: 63px;
+    background: black;
+    color: darkgray;
+}
+h1,h2,h3,h4,h5{
+    color: aquamarine;
+}
+.carousel{
+    height:  !important;
+}
+.carousel-inner,.carousel-item{
+  height: 100% !important;
+}
+.logo{
+	height: 70px;
+	width: 70px;
+}
+
+.contact-wrap h3{
+  text-transform: uppercase;
+  margin-bottom: 30px;
+}
+
+.contact-us{
+  padding-top: 0;
+}
+#googleMap{
+  height: 500px;
+  width: 100%;
+  background: #296dc1;
+  margin-top: 100px;
+}
+
+.form-input{
+  height:40px;
+  border-radius: 17px;
+}
+
+.form-textarea{
+  height: 100px;
+  border-radius: 17px;
+}
+
+.section-heading-form h4{
+  color: #fff;
+}
+
+.contact-info-section-form{
+  font-size: 20px;
+}
+
+.contact-info-section-form h4 {
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 5px;
+    line-height: normal;
+}
+.contact-info-section-form p {
+    color: #fff;
+    font-size: 15px;
+    font-weight: 400;
+    margin: 0;
+}
+.contact-info-section-form {
+    border-bottom: 1px solid #ececec;
+    padding: 25px 0;
+    margin-bottom: 0;
+    -webkit-transition-duration: .5s;
+    transition-duration: .5s;
+}
+.contact-info-section-form h4 {
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 5px;
+    line-height: normal;
+}
+.no-margin-bottom {
+    margin-bottom: 0 !important;
+    padding-left: 0px !important;
+}
+.list-style-1 li {
+    padding: 5px 0;
+}
+.contact-info-section-form p {
+    color: #fff;
+    font-size: 15px;
+    font-weight: 400;
+    margin: 0;
+}
+.contact-info-section-form i {
+    width: 25px;
+    height: 25px;
+    padding-top: 7px;
+    border-radius: 50%;
+    background: #36415f;
+    color: #fff;
+    font-size: 12px;
+    margin-right: 5px;
+    line-height: 11px;
+}
+.email_color{
+  color: #fff;
+}
+/*----------------contact-area End------------------*/
+
+/*-----------------Footer Area----------------------*/
+
+footer{
+  background-color: #504cf5;
+  margin-top: 0;
+}
+
+.form-input,
+.form-textarea{
+	width: 100%;
+	margin: 5px;
+	padding: 10px;
+}
+
+.section-heading-form{
+	margin: 10px;
+}
+#social {
+  margin: 20px 10px;
+  text-align: center;
+}
+
+.our_footer_area{
+	margin: 2%;
+}
+
+.smGlobalBtn { /* global button class */
+    display: inline-block;
+    position: relative;
+    cursor: pointer;
+    width: 80px;
+    height: 80px;
+    border:2px solid #ddd; /* add border to the buttons */
+    box-shadow: 0 3px 3px #999;
+    padding:14px;
+    text-decoration: none;
+    text-align: center;
+    color: #fff;
+    font-size: 25px;
+    font-weight: normal;
+    line-height: 2em;
+    border-radius: 100%;
+    margin-left: 20px; 
+    -moz-border-radius:100%;
+    -webkit-border-radius:100%;
+}
+
+/* facebook button class*/
+.facebookBtn{
+    
+    color: #4060A5;
+    background: #fff;
+    border-color: #4060A5; /* change the border color on mouse hover */
+}
+
+.facebookBtn:before{ /* use :before to add the relevant icons */
+    font-family: "FontAwesome";
+    content: "\f09a"; /* add facebook icon */
+}
+
+.facebookBtn:hover{
+	color: #fff;
+    background: #4060A5;
+    border-color: #fff;
+}
+
+/* twitter button class*/
+.twitterBtn{
+	color: #4060A5;
+    background: #fff;
+    border-color: #00ABE3;
+}
+
+.twitterBtn:before{
+      font-family: "FontAwesome";
+      content: "\f099"; /* add twitter icon */
+      
+}
+
+.twitterBtn:hover{
+      color: #fff;
+      background: #00ABE3;
+      border-color: #fff;
+}
+
+/* google plus button class*/
+.googleplusBtn{
+    color: #e64522;
+    background: #fff;
+    border-color: #e64522;
+}
+
+.googleplusBtn:before{
+      font-family: "FontAwesome";
+      content: "\f0d5"; /* add googleplus icon */
+}
+
+.googleplusBtn:hover{
+      color: #fff;
+      background: #e64522;
+      border-color: #fff;
+}
+
+/* linkedin button class*/
+.linkedinBtn{
+      color: #0094BC;
+      background: #fff;
+      border-color: #0094BC;
+}
+
+.linkedinBtn:before{
+      font-family: "FontAwesome";
+      content: "\f0e1"; /* add linkedin icon */
+}
+
+.linkedinBtn:hover{
+      color: #fff;
+      background: #0094BC;
+      border-color: #fff;
+}
+
+/* instagram button class*/
+.instagramBtn{
+      color: #d6249f;
+      background: #fff;
+      border-color: #d6249f;
+}
+
+.instagramBtn:before{
+      font-family: "FontAwesome";
+      content: "\f16d"; /* add pinterest icon */
+}
+
+.instagramBtn:hover{
+      color: #fff;
+      background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
+      border-color: #fff;
+}
+
+/* gtihub button class*/
+.githubBtn{
+   	  color: #000;
+      background: #fff;
+      border-color: #000;
+}
+
+.githubBtn:before{
+      font-family: "FontAwesome";
+      content: "\f09b"; /* add pinterest icon */
+}
+
+.githubBtn:hover{
+      color: #fff;
+      background: #000;
+      border-color: #fff;
+}
+/*-----------------Footer Area End-------------------*/
