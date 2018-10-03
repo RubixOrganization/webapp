@@ -1,0 +1,183 @@
+.no-js #loader { display: none;  }
+                       .js #loader { display: block; position: absolute; left: 100px; top: 0; }
+                       .se-pre-con {
+                       	position: fixed;
+                       	left: 0px;
+                       	top: 0px;
+                       	width: 100%;
+                       	height: 100%;
+                       	z-index: 9999;
+                       	background: url(../img/rubixo.gif) center no-repeat #000;
+                       }
+
+
+
+
+
+
+
+body{
+    margin-top: 0px;
+    background: white;
+    color: darkgray;
+}
+h1,h2,h3,h4,h5{
+    color: aquamarine;
+}
+.carousel{
+    height:  !important;
+}
+.carousel-inner,.carousel-item{
+  height: 100% !important;
+}
+
+.feature-area{
+    background: lightblue;
+}
+
+.about{
+    height: 70vh;
+    background: black;
+    
+}
+.about-1{
+    height: 100%; 
+    background: url(../img/magic-cube-378543.jpg) center fixed; 
+    background-size: cover;
+    padding-left: 30px;
+}
+.about-1 h1{
+    width: 40%;
+}
+.about-1 p{
+    width: 40%;
+}
+
+
+
+.our_footer_area{
+    padding: 30px ;
+    background: black ;
+    line-height: 1.5em;
+}
+.form-input{
+  height:40px;
+  border-radius: 17px;
+}
+
+.form-textarea{
+  height: 100px;
+  border-radius: 17px;
+}
+.contact-info-section-form{
+  font-size: 20px;
+}
+
+.contact-info-section-form h4 {
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 5px;
+    line-height: normal;
+}
+.contact-info-section-form p {
+    color: #fff;
+    font-size: 15px;
+    font-weight: 400;
+    margin: 0;
+}
+.contact-info-section-form {
+    border-bottom: 1px solid #ececec;
+    padding: 25px 0;
+    margin-bottom: 0;
+    -webkit-transition-duration: .5s;
+    transition-duration: .5s;
+}
+.contact-info-section-form h4 {
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 5px;
+    line-height: normal;
+}
+.no-margin-bottom {
+    margin-bottom: 0 !important;
+    padding-left: 0px !important;
+}
+.list-style-1 li {
+    padding: 5px 0;
+}
+.contact-info-section-form p {
+    color: #fff;
+    font-size: 15px;
+    font-weight: 400;
+    margin: 0;
+}
+.contact-info-section-form i {
+    width: 25px;
+    height: 25px;
+    padding-top: 7px;
+    border-radius: 50%;
+    background: #36415f;
+    color: #fff;
+    font-size: 12px;
+    margin-right: 5px;
+    line-height: 11px;
+}
+.email_color{
+  color: #fff;
+}
+.form-input,
+.form-textarea{
+	width: 100%;
+	margin: 5px;
+	padding: 10px;
+}
+
+#lab_social_icon_footer {
+  padding: 40px 0;
+  background-color: black;
+}
+
+#lab_social_icon_footer a {
+  color: #333;
+}
+
+#lab_social_icon_footer .social:hover {
+  -webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -o-transform: scale(1.1);
+}
+
+#lab_social_icon_footer .social {
+  -webkit-transform: scale(0.8);
+  /* Browser Variations: */
+  
+  -moz-transform: scale(0.8);
+  -o-transform: scale(0.8);
+  -webkit-transition-duration: 0.5s;
+  -moz-transition-duration: 0.5s;
+  -o-transition-duration: 0.5s;
+}
+/*
+    Multicoloured Hover Variations
+*/
+
+#lab_social_icon_footer #social-fb:hover {
+  color: #3B5998;
+}
+#lab_social_icon_footer #social-ln:hover {
+  color: #3B5990;
+}
+
+#lab_social_icon_footer #social-tw:hover {
+  color: #4099FF;
+}
+
+#lab_social_icon_footer #social-gp:hover {
+  color: #d34836;
+}
+
+#lab_social_icon_footer #social-em:hover {
+  color: #fff;
+}
