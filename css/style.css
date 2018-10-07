@@ -25,6 +25,7 @@
                        	z-index: 9999;
                        	background: url(../img/smallrubix2_3.gif) center no-repeat #000;
                        }
+    
 }
 
 
@@ -70,11 +71,14 @@ h1,h2,h3,h4,h5{
 
 
 
+
 .our_footer_area{
     padding: 30px ;
     background: black ;
     line-height: 1.5em;
 }
+
+
 .form-input{
   height:40px;
   border-radius: 17px;
@@ -178,9 +182,11 @@ h1,h2,h3,h4,h5{
     Multicoloured Hover Variations
 */
 
+/*
 #lab_social_icon_footer #social-fb:hover {
   color: #3B5998;
 }
+*/
 #lab_social_icon_footer #social-ln:hover {
   color: #3B5990;
 }
@@ -204,4 +210,171 @@ h1,h2,h3,h4,h5{
 .mission:active{
     border: 0px gray solid
     box-shadow: 0 0 5px 0px gray;
+}
+
+///////////////////////////////////////
+
+
+#social {
+  margin: 20px 10px;
+  text-align: center;
+}
+
+.our_footer_area{
+	margin: 0%;
+}
+
+.smGlobalBtn { /* global button class */
+    display: inline-block;
+    position: relative;
+    cursor: pointer;
+    width: 80px;
+    height: 80px;
+    border:2px solid #ddd; /* add border to the buttons */
+    box-shadow: 0 3px 3px #999;
+    padding:14px;
+    text-decoration: none;
+    text-align: center;
+    color: #fff;
+    font-size: 25px;
+    font-weight: normal;
+    line-height: 2em;
+    border-radius: 100%;
+    margin-left: 20px; 
+    -moz-border-radius:100%;
+    -webkit-border-radius:100%;
+}
+
+/* facebook button class*/
+.facebookBtn{
+    
+    color: #4060A5;
+    background: #fff;
+    border-color: #4060A5; /* change the border color on mouse hover */
+}
+
+.facebookBtn:before{ /* use :before to add the relevant icons */
+    font-family: "FontAwesome";
+    content: "\f09a"; /* add facebook icon */
+}
+
+.facebookBtn:hover{
+	color: #fff;
+    background: #4060A5;
+    border-color: #fff;
+}
+
+/* twitter button class*/
+.twitterBtn{
+	color: #4060A5;
+    background: #fff;
+    border-color: #00ABE3;
+}
+
+.twitterBtn:before{
+      font-family: "FontAwesome";
+      content: "\f099"; /* add twitter icon */
+      
+}
+
+.twitterBtn:hover{
+      color: #fff;
+      background: #00ABE3;
+      border-color: #fff;
+}
+
+/* google plus button class*/
+.googleplusBtn{
+    color: #e64522;
+    background: #fff;
+    border-color: #e64522;
+}
+
+.googleplusBtn:before{
+      font-family: "FontAwesome";
+      content: "\f0d5"; /* add googleplus icon */
+}
+
+.googleplusBtn:hover{
+      color: #fff;
+      background: #e64522;
+      border-color: #fff;
+}
+
+/* linkedin button class*/
+.linkedinBtn{
+      color: #0094BC;
+      background: #fff;
+      border-color: #0094BC;
+}
+
+.linkedinBtn:before{
+      font-family: "FontAwesome";
+      content: "\f0e1"; /* add linkedin icon */
+}
+
+.linkedinBtn:hover{
+      color: #fff;
+      background: #0094BC;
+      border-color: #fff;
+}
+
+/* instagram button class*/
+.instagramBtn{
+      color: #d6249f;
+      background: #fff;
+      border-color: #d6249f;
+}
+
+.instagramBtn:before{
+      font-family: "FontAwesome";
+      content: "\f16d"; /* add pinterest icon */
+}
+
+.instagramBtn:hover{
+      color: #fff;
+      background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
+      border-color: #fff;
+}
+
+/* gtihub button class*/
+.githubBtn{
+   	  color: #000;
+      background: #fff;
+      border-color: #000;
+}
+
+.githubBtn:before{
+      font-family: "FontAwesome";
+      content: "\f09b"; /* add pinterest icon */
+}
+
+.githubBtn:hover{
+      color: #fff;
+      background: #000;
+      border-color: #fff;
+}
+/*-----------------Footer Area End-------------------*/
+.active-blog-carusel{
+    margin-left: 60px;
+}
+.card{
+    width: 70%;
+    
+}
+@media only screen and (max-width:500px){
+    .active-blog-carusel{
+    margin-left: 0;    
+}
+    .card{
+    width: 70%;
+    margin-left: 50px;
+}
+}
+
+.card-img-top{
+    height: 220px; width: 100%;
+}
+.card-body{
+    height: 100px; width: 100%;
 }
