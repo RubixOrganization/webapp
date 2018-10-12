@@ -61,15 +61,13 @@ h1,h2,h3,h4,h5{
 }
 
 .about{
-    height: 70vh;
+    height: 100vh;
     background: black;
     
 }
 .about-1{
     height: 100%; 
-    background: url(../img/magic-cube-378543.jpg) center fixed; 
-    background-size: cover;
-    padding-left: 30px;
+    
 }
 .about-1 h1{
     width: 40%;
@@ -386,4 +384,10 @@ h1,h2,h3,h4,h5{
 }
 .card-body{
     height: 100px; width: 100%;
+}
+
+.backing {
+    background: url(../img/business-2987962_1920.jpg) center center no-repeat;
+    background-size: contain;
+    height: 70vh;
 }
